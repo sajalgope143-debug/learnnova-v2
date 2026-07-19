@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "courses": "Courses",
+    "pricing": "Pricing",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "login": "Log in",
+    "signup": "Get started"
+  },
+  "hero": {
+    "title": "Learn skills that move your career forward",
+    "subtitle": "Premium video courses, hands-on projects, and certificates — taught by working professionals.",
+    "searchPlaceholder": "What do you want to learn today?"
+  },
+  "dashboard": {
+    "myCourses": "My Courses",
+    "continueLearning": "Continue Learning",
+    "certificates": "Certificates",
+    "wallet": "Wallet",
+    "referrals": "Referrals",
+    "payments": "Payment History",
+    "notifications": "Notifications",
+    "profile": "Profile Settings",
+    "security": "Security"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "enroll": "Enroll Now"
+  }
+}
