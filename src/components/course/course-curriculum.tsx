@@ -12,7 +12,7 @@ const iconFor: Record<Lesson["type"], typeof PlayCircle> = {
 }
 
 export function CourseCurriculum({
-  chapters,+
+  chapters,
   isEnrolled,
 }: {
   chapters: Chapter[];
