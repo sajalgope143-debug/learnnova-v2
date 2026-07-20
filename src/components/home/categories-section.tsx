@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Code2, BarChart3, Palette, Briefcase, Languages, BookOpen } from "lucide-react";
 import type { Category } from "@/types";
 
-const iconMap: Record<string, React.ComponentType<{ size?: number }>> = {
+const iconMap: Record<string, typeof Code2> = {
   code: Code2,
   "bar-chart": BarChart3,
   palette: Palette,
