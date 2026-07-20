@@ -6,7 +6,7 @@ import { Bell, CreditCard, BookOpen, Users, Settings } from "lucide-react";
 import Link from "next/link";
 import type { Notification } from "@/types";
 
-const iconFor: Record<Notification["type"], React.ComponentType<{ size?: number }>> = {
+const iconFor: Record<Notification["type"], typeof Bell> = {
   info: Bell,
   payment: CreditCard,
   course: BookOpen,
