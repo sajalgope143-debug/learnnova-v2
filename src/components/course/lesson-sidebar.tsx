@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { CheckCircle2, Circle, PlayCircle, FileText, HelpCircle, ClipboardList } from "lucide-react";
 import type { Chapter, Lesson } from "@/types";
 
-const iconFor: Record<Lesson["type"], React.ComponentType<{ size?: number }>> = {
+const iconFor: Record<Lesson["type"], typeof PlayCircle> = {
   video: PlayCircle,
   pdf: FileText,
   quiz: HelpCircle,
