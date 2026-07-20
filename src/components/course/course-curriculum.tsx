@@ -4,15 +4,15 @@ import { useState } from "react";
 import { ChevronDown, PlayCircle, FileText, HelpCircle, ClipboardList, Lock } from "lucide-react";
 import type { Chapter, Lesson } from "@/types";
 
-const iconFor: Record<Lesson["type"], React.ComponentType<{ size?: number }>> = {
+const iconFor: Record<Lesson["type"], typeof PlayCircle> = {
   video: PlayCircle,
   pdf: FileText,
   quiz: HelpCircle,
   assignment: ClipboardList,
-};
+}
 
 export function CourseCurriculum({
-  chapters,
+  chapters,+
   isEnrolled,
 }: {
   chapters: Chapter[];
